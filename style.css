@@ -1,0 +1,212 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  /*  background-color: #394453;*/
+    background-image: url(0064.png);
+justify-items: center;
+display: flexbox;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #5d3081;
+    color: white;
+    width:100vw;
+    height: min-content;
+}
+
+footer  { position: sticky;
+    bottom: 0;
+     text-align: center;
+    color: white;
+    width:100vw;
+    height: max-content;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100vw;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+
+#registration-form
+{  padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+     width:min-content;
+    background-color: aliceblue;
+    box-shadow:0 10px 10px 0 black;
+    border-radius: 5px;
+
+
+}
+
+
+#c
+{
+    color: white;
+}
+.part
+{
+    display: flex;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #1b1a57;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255); /* Change to the color you want on hover */
+}
+
+/* Visited link color (after the user clicks the link) */
+a:visited {
+    color: rgb(255, 255, 255); /* Change to the color you want for visited links */
+}
+
+/* Active link color (while the user is clicking the link) */
+a:active {
+    color: rgb(255, 0, 0); /* Change to the color you want while the link is active */
+}
+/* General styles for the social media section */
+.social-media {
+    display: flex; /* Arrange items in a horizontal row */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Vertically align the content */
+    flex-wrap: wrap; /* Allow wrapping if the screen size is small */
+    gap: 20px; /* Add space between each icon and text */
+    padding: 20px; /* Add padding around the container */
+    background-color: #333; /* Set the background color of the footer (can be adjusted) */
+}
+
+/* Styling for the social media icon */
+.social-media i {
+    font-size: 30px; /* Icon size */
+    color: #fff; /* White color for icons */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Styling for the social media link */
+.social-media .social-icon {
+    font-size: 18px; /* Font size for the text */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 600; /* Make the text bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for social media links */
+.social-media .social-icon:hover {
+    color: #1e90ff; /* Change text color when hovered (you can adjust the color) */
+}
+
+
+#name,#student-id,#email,#contact
+{
+    border-radius: 10px;
+}
+
+/* For smaller screens (responsive design) */
+@media (max-width: 600px) {
+    .social-media {
+        flex-direction: row; /* Stack the social media icons vertically on smaller screens */
+        gap: 15px; /* Adjust the space between items when stacked */
+    }
+
+    .social-media i {
+        font-size: 15px; /* Reduce icon size for small screens */
+    }
+
+    .social-media .social-icon {
+        font-size: 15px; /* Adjust font size for small screens */
+    }
+
+    .social-media {
+        bottom: 0;
+        height: 50px;
+        display: flex; /* Arrange items in a horizontal row */
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Vertically align the content */
+        flex-wrap: wrap; /* Allow wrapping if the screen size is small */
+        gap: 10px; /* Add space between each icon and text */
+        padding: 3px; /* Add padding around the container */
+        background-color: #333; /* Set the background color of the footer (can be adjusted) */
+    }
+    table {
+        width: 100vw;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background-color: white;
+        font-size: 10px; 
+    }
+
+    button {
+        padding: 5px 10px;
+        background-color: #0044cc;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+    }
+}
